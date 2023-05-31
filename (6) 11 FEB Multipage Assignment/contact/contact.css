@@ -1,0 +1,110 @@
+/* reset css */
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    font-family: IBM plex sans, sans-serif
+}
+
+
+body{
+    max-width: 1440px;
+    background-color: #f0f4f5;
+    overflow: hidden;
+    margin: auto;
+
+}
+
+/* cerating the navigation menu */
+nav {
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5%;
+}
+
+/* designing the logo */
+
+nav img {
+    width: 150px;
+}
+
+/* designing the navigation menu links */
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+    list-style-type: none;
+    margin-right: 50px;
+    font-weight: 600;
+
+}
+
+nav ul li:first-child {
+    font-weight: 700;
+    color: #20bc7e;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+
+
+}
+
+/* designing the main section and form */
+
+main {
+    height: 85vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+main {
+    width: 350px;
+    box-shadow:0 0 10px black;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+form h1 {
+    text-align: center;
+}
+
+form div{
+    display: flex;
+    flex-direction: column;
+}
+
+fint div label {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+form div input {
+    border: transparent;
+    border-radius: 100px;
+    padding: 5px 10px;
+}
+
+form div textarea {
+    border: transparent;
+    border-radius: 10px;
+    background-color: #20bc7e;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px;
+    cursor: pointer;
+}
